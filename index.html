@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="java.js"></script>
+    <script src="main.js"></script>
 
     <link href="style.css" rel="stylesheet" />
     <!--  type="stylesheet/css"  -->
@@ -21,7 +21,7 @@
     <title>Document</title>
   </head>
   <body>
-    <h2 class="titulo">What Can JavaScript Do?</h2>
+    <h2 class="titulo">I am expert in JavaScript</h2>
 
     <p>JavaScript can change HTML attribute values.......</p>
     <hr />
@@ -30,10 +30,7 @@
       an image.
     </p>
 
-    <button
-      class="css-boton boton-info"
-      onclick="document.getElementById('bulb').src='https://i.pinimg.com/236x/9b/5d/38/9b5d38f0884bbef6b391b66cdc452fd5.jpg'"
-    >
+    <button class="css-boton boton-info" onclick="prender_foco()">
       Turn on the light
     </button>
 
@@ -43,10 +40,7 @@
       style="width: 100px;"
     />
 
-    <button
-      class="css-boton boton-info"
-      onclick="document.getElementById('bulb').src='https://www.w3schools.com/js/pic_bulboff.gif'"
-    >
+    <button class="css-boton boton-info" onclick="apagar_foco()">
       Turn off the light
     </button>
   </body>
