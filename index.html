@@ -5,19 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="java.js"></script>
+
+    <link href="style.css" rel="stylesheet" />
+    <!--  type="stylesheet/css"  -->
+    <!--    <style>
+      body {
+        background: #324877;
+        width: 600px;
+        margin: 0 auto;
+
+        padding: 0 20px 20px 20px;
+        border: 5px solid black;
+      }
+    </style>  -->
     <title>Document</title>
   </head>
   <body>
-    <h2>What Can JavaScript Do?</h2>
+    <h2 class="titulo">What Can JavaScript Do?</h2>
 
-    <p>JavaScript can change HTML attribute values.</p>
-
+    <p>JavaScript can change HTML attribute values.......</p>
+    <hr />
     <p>
       In this case JavaScript changes the value of the src (source) attribute of
       an image.
     </p>
 
     <button
+      class="css-boton boton-info"
       onclick="document.getElementById('bulb').src='https://i.pinimg.com/236x/9b/5d/38/9b5d38f0884bbef6b391b66cdc452fd5.jpg'"
     >
       Turn on the light
@@ -30,6 +44,7 @@
     />
 
     <button
+      class="css-boton boton-info"
       onclick="document.getElementById('bulb').src='https://www.w3schools.com/js/pic_bulboff.gif'"
     >
       Turn off the light
