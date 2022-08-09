@@ -131,3 +131,22 @@ p {
 .boton-xgrande {
   font-size: 125%;
 }
+/*boton google*/
+a {
+  display: block;
+  width: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  border-radius: 10px;
+  margin: 158px 130px;
+  padding: 15px 30px;
+  background-color: #7a3604;
+  color: #fff;
+  text-decoration: none;
+
+  color: #7a3604;
+}
+a:hover {
+  background-color: transparent;
+  border: 2px solid #7a3604;
+}
